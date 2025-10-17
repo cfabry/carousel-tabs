@@ -37,8 +37,8 @@ var CarouselTablist = function (node, options) {
     '.carousel-tablist .controls button.rotation'
   );
 
-  this.playLabel = 'Start automatic slide show';
-  this.pauseLabel = 'Stop automatic slide show';
+  this.playLabel = 'Avvia scorrimento automatico';
+  this.pauseLabel = 'Stop scorrimento automatico';
 
   /* State properties */
   this.hasUserActivatedPlay = false; // set when the user activates the play/pause button
